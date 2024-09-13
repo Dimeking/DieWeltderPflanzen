@@ -1,0 +1,62 @@
+body{
+  background-image: url(./Bilder/1989430.jpg);
+}
+
+
+h1{
+  text-align: center;
+  color: brown;
+}
+
+
+.Bryophyte {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px
+  
+}
+.Bryophyte img{
+  border-radius: 20px;
+}
+
+.Bryophyte p{
+  font-size: 20px;
+  color: azure;
+}
+hr{
+  background-color: aquamarine;
+}
+.return{
+  display: flex;
+  gap:600px;
+}
+.return h1{
+align-items: center;
+font-size: 50px ;
+}
+ .return a img{
+  width: 40px;
+  background-color: rgba(214, 219, 228, 0.822);
+  border-radius: 20px ;
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 30px;
+ }
+
+ .video2 {
+  display:flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 70px;
+  
+ }
+
+ .video2 img {
+  animation: rotation 20s linear infinite;
+ }
+
+@keyframes rotation{
+  0% { transform: rotate (0deg) ;}
+  100% { transform: rotate(360deg) ;}
+}
